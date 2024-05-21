@@ -1,6 +1,7 @@
 body {
   width: 100%;
   overflow-x: hidden;
+  background-color: black;
 }
 
 #navbar-background {
@@ -213,14 +214,24 @@ font-family: 'Montserrat', sans-serif;
   }
 }
 
-.homepage-position {
-  position: absolute;
-  padding-top: 150px;
-  z-index: 10;
+#Homepage {
   width: 100%;
+  height: 100%;
 }
 
-.navbar-nav {
-  display: flex;
-  justify-content: flex-end;
+#Pokemon-box {
+  background-color: #3ec05f;
+  border-radius: 20px;
+  width: 100%;
+
+}
+
+.pokemon-img {
+  z-index: 6;
+  margin-right: -470px;
+}
+
+#bubble-img {
+  height: 600px;
+  width: 600px;
 }
