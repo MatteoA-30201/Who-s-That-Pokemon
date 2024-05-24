@@ -219,19 +219,54 @@ font-family: 'Montserrat', sans-serif;
   height: 100%;
 }
 
-#Pokemon-box {
-  background-color: #3ec05f;
-  border-radius: 20px;
-  width: 100%;
+@media (min-width: 1000px) {
+  #Pokemon-box {
+    background-color: #3ec05f;
+    border-radius: 20px;
+    width: 100%;
 
+  }
+
+  .pokemon-img {
+    z-index: 6;
+    margin-right: -470px;
+  }
+
+  #bubble-img {
+    height: 600px;
+    width: 600px;
+  }
 }
 
-.pokemon-img {
-  z-index: 6;
-  margin-right: -470px;
-}
+@media (max-width: 1000px) {
 
-#bubble-img {
-  height: 600px;
-  width: 600px;
+  #bubble-img {
+    height: 400px;
+    width: 400px;
+  }
+
+  .pokemon-img {
+    z-index: 6;
+    margin-right: -290px;
+    width: 140px;
+    height: 132px;
+  }
+
+  #Pokemon-box {
+    background-color: #3ec05f;
+    border-radius: 20px;
+    width: 100%;
+    padding: 25px;
+  }
+  .quiz-title {
+    background-color: #74c692;
+    color: #cfffd2;
+    font-family: "Montserrat", sans-serif;
+    border-radius: 12px;
+    font-size: 20px;
+    height: 40px;
+  }
+  .top-row {
+    width: 100%;
+  }
 }
