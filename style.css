@@ -2,11 +2,12 @@ body {
   width: 100%;
   overflow-x: hidden;
   background-color: black;
+  height: 100%;
 }
 
 #logo img {
-  width: 100px;
-  height: 100px;
+  width: 120px;
+  height: 120px;
 }
 
 @media (min-width: 1000px) {
@@ -57,38 +58,38 @@ body {
 
 #Homepage {
   width: 100%;
-  height: 100%;
 }
 
 @media (min-width: 430px) {
   #Pokemon-box {
     background-color: #3ec05f;
     border-radius: 20px;
-    width: 100%;
     padding: 25px;
-
+    height: 878px;
+    width: 49%;
+    padding-top: 150px;
   }
 
   .pokemon-img {
     z-index: 6;
     margin-right: -440px;
-    width: 233.333333333px;
-    height: 220px;
-    margin-left: 200px;
+
+    height: 30%;
+    margin-left: 231px;
   }
 
   #bubble-img {
-    height: 600px;
-    width: 600px;
+    height: 85%;
+
   }
 
   .quiz-title {
     background-color: #74c692;
     color: #cfffd2;
     font-family: "Montserrat", sans-serif;
-    border-radius: 12px;
+    border-radius: 33px;
     font-size: 70px;
-    height: 100px;
+    height: 100%;
     font-weight: 700;
   }
 
@@ -128,9 +129,10 @@ body {
     font-size: 22px;
     height: 70px;
     font-weight: 700;
-    padding: 0px 3px;
+    padding: 0px 4px;
     margin-right: -21px;
     width: 80%;
+    
   }
   .first-row {
     width: 100%;
@@ -145,6 +147,7 @@ body {
 .row-box2 {
   width: 100%;
   padding: 0px;
+  height: 100%;
 }
 
 .row {
@@ -153,4 +156,17 @@ body {
 
 #logo-container {
   padding: 0px;
+}
+
+.accent-img {
+  width: 60%;
+  height: 60%;
+}
+
+#quiz-box {
+  height: 100%;
+}
+
+#pokemon-box {
+  height: 100%;
 }
