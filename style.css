@@ -70,6 +70,8 @@ body {
     padding-top: 150px;
   }
 
+  
+
   .pokemon-img {
     z-index: 6;
     margin-right: -440px;
@@ -91,6 +93,11 @@ body {
     font-size: 70px;
     height: 100%;
     font-weight: 700;
+  }
+
+  .accent-img {
+    width: 60%;
+    height: 60%;
   }
 
   .first-row {
@@ -142,6 +149,15 @@ body {
     width: 70px;
     height: 70px;
   }
+
+  .accent-img {
+    width: 80px;
+    height: 80px;
+  }
+  
+  .accent-row {
+    
+  }
 }
 
 .row-box2 {
@@ -156,11 +172,6 @@ body {
 
 #logo-container {
   padding: 0px;
-}
-
-.accent-img {
-  width: 60%;
-  height: 60%;
 }
 
 #quiz-box {
