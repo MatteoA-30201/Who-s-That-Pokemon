@@ -37,22 +37,9 @@ body {
 }
 }
 
-@media (max-width: 768px) {
-  #logo {
-    margin-top: 10px;
-  }
-}
-
-
 @media (min-width: 870px) {
   .heading-size-change {
     font-size: 20px;
-  }
-}
-
-@media (max-width: 768px) {
-  #logo {
-    margin-bottom: 10px;
   }
 }
 
@@ -60,7 +47,7 @@ body {
   width: 100%;
 }
 
-@media (min-width: 430px) {
+@media (min-width: 1000px) {
   #Pokemon-box {
     background-color: #3ec05f;
     border-radius: 20px;
@@ -90,7 +77,7 @@ body {
     color: #cfffd2;
     font-family: "Montserrat", sans-serif;
     border-radius: 33px;
-    font-size: 70px;
+    font-size: 54px;
     height: 100%;
     font-weight: 700;
   }
@@ -107,7 +94,7 @@ body {
   }
 }
 
-@media (max-width: 430px) {
+@media (max-width: 1000px) {
 
   #bubble-img {
     height: 350px;
@@ -122,6 +109,11 @@ body {
     margin-left: 120px;
   }
 
+  #logo {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
   #Pokemon-box {
     background-color: #3ec05f;
     border-radius: 20px;
@@ -133,13 +125,10 @@ body {
     color: #cfffd2;
     font-family: "Montserrat", sans-serif;
     border-radius: 12px;
-    font-size: 22px;
+    font-size: 20px;
     height: 70px;
     font-weight: 700;
-    padding: 0px 4px;
-    margin-right: -21px;
-    width: 80%;
-    
+    padding: 0px 6px;
   }
   .first-row {
     width: 100%;
@@ -151,12 +140,8 @@ body {
   }
 
   .accent-img {
-    width: 80px;
-    height: 80px;
-  }
-  
-  .accent-row {
-    
+    width: 70%;
+    height: 70%;
   }
 }
 
